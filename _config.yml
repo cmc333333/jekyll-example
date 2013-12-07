@@ -5,3 +5,29 @@ redcarpet:
   extensions:
     - tables
 pygments: true
+prose:
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          type: "text"
+      - name: "season"
+        field: 
+          element: "select"
+          label: "Season"
+          options:
+            - name: 'Spring'
+              value: 'spring'
+            - name: 'Summer'
+              value: 'summer'
+            - name: 'Fall'
+              value: 'fall'
+            - name: 'Winter'
+              value: 'winter'
+
