@@ -6,6 +6,7 @@ redcarpet:
     - tables
 pygments: true
 prose:
+  rooturl: "_posts"
   metadata:
     _posts:
       - name: "layout"
@@ -30,4 +31,8 @@ prose:
               value: 'fall'
             - name: 'Winter'
               value: 'winter'
-
+      - name: "reviewed"
+        field:
+          element: "checkbox"
+          label: "Reviewed"
+          value: false
