@@ -1,3 +1,7 @@
 name: Site of Seasons
 markdown: redcarpet
+url: http://cmc333333.github.io/jekyll-example
+redcarpet:
+  extensions:
+    - tables
 pygments: true
